@@ -71,7 +71,7 @@ It contains data on national rankings, global rankings, research rankings, emplo
 ## 3. **Univariate Analysis**
 
    - Performed univariate analysis on individual variables to assess their distribution and trends.
-   - **Visualizations**: Used histograms and box plots to understand the distribution of global and national rankings, as well as research and employment rankings.
+   - **box-plot**: Used histograms and box plots to understand the distribution of global and national rankings, as well as research and employment rankings.
    
 ---
 
@@ -79,6 +79,8 @@ It contains data on national rankings, global rankings, research rankings, emplo
 
    - Conducted bivariate and multivariate analysis to explore relationships between different variables.
    - **Correlation Matrix**: Generated a correlation matrix to identify the strength of relationships between rankings (e.g., global rank vs. national rank).
+   - **Scatter-plot**: to show relationship between University Rank and University Score.
+   - **Bar-chart and pie-chart**: to answer the questions.
    - **Country Analysis**: Grouped data by country to identify nations with the highest concentration of top-ranked universities and visualized the findings using bar charts.
 
 ---
