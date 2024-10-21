@@ -87,7 +87,7 @@ It contains data on national rankings, global rankings, research rankings, emplo
 
 ## Key Insights
 
-### 1. ** Top 10 Globally Ranked Universities**
+### 1. **Top 10 Globally Ranked Universities**
    - **Insight**: The top 10 universities globally are differ across ranking systems.
 
 
@@ -106,6 +106,6 @@ It contains data on national rankings, global rankings, research rankings, emplo
    - **Insight**: Countries like the US, UK,  lead global university rankings due to strong research output.
   
 
-### 6. **negative Correlation Between Employment and Research Rankings**
+### 6. **Negative Correlation Between Employment and Research Rankings**
    - **Insight**: There is minimal correlation between employment and research rankings.
 
