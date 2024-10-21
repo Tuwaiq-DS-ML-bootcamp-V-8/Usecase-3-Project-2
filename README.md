@@ -12,7 +12,7 @@
 ## Introduction
 
 ### Problem:
-Understanding how various factors, such as employment rankings, research rankings, and others, influence a university's overall ranking is essential for both universities and policymakers. This project aims to analyze these factors and identify the most significant contributors to a university�s overall global standing. Furthermore, it seeks to determine which countries consistently have a high concentration of top-ranked universities globally.
+Understanding how various factors, such as employment rankings, research rankings, and others, influence a university's overall ranking is essential for both universities and policymakers. This project aims to analyze these factors and identify the most significant contributors to a universities overall global standing. Furthermore, it seeks to determine which countries consistently have a high concentration of top-ranked universities globally.
 
 ### Objectives:
 
@@ -20,7 +20,7 @@ Understanding how various factors, such as employment rankings, research ranking
 1. Investigate Which universities are ranked in the top 10 globally
 2. Investigate Which universities are ranked in the top 10 for employment outcomes
 3. Identify What positions do universities in Saudi Arabia hold within the global rankings?
-4.  Determine which factors (e.g., **research rankings**, **employment rankings**) and others, most significantly impact a university�s **overall ranking**.
+4.  Determine which factors (e.g., **research rankings**, **employment rankings**) and others, most significantly impact a universities **overall ranking**.
 5. Investigate the correlation between **national** and **global** university rankings.
 6. Identify countries with a high concentration of **top-ranked universities**.
 ---
@@ -61,7 +61,7 @@ It contains data on national rankings, global rankings, research rankings, emplo
    - Handled missing data by applying appropriate imputation values.
 
    ### 2.2 **Correcting Errors**:
-   - Cleaned and standardized inconsistent text values in columns like World Rank. Removed irrelevant characters (e.g., `+`, `�`) from numerical columns and converted them into the correct data types (`int` or `float`).
+   - Cleaned and standardized inconsistent text values in columns like World Rank. Removed irrelevant characters (e.g., `+`, `-`) from numerical columns and converted them into the correct data types (`int` or `float`).
 
    ### 2.3 **Dealing with Outliers**:
    - Identified and handled outliers in ranking-related columns using domain knowledge and statistical methods. Outliers were assessed based on extreme rankings or unusual score patterns.
@@ -90,7 +90,7 @@ It contains data on national rankings, global rankings, research rankings, emplo
 
 
 ### 2. **Research Ranking as the Most Significant Factor**
-   - **Insight**: Research ranking has the strongest influence on a university�s overall ranking.
+   - **Insight**: Research ranking has the strongest influence on a universities overall ranking.
 
 ### 3. **Top Universities are Concentrated in the US and UK**
    - **Insight**: US and UK are the highest number of globally top-ranked universities.
