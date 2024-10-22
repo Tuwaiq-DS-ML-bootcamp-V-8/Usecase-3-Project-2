@@ -3,9 +3,9 @@
 
 ##  Team Members
 - [Arwa Alkhathlan](https://github.com/arwaalkhathlan)  
-- [Taif]
-- [Manal]
-- [mohammed]
+- [Taif]()
+- [Manal Hanif](https://github.com/ManalHanif)
+- [Mohammed Abdullah](https://github.com/Mohammed-Abdullah2)
 
 ---
 
