@@ -119,25 +119,74 @@ The analysis is structured around five primary questions: identifying the top 10
 The findings from this analysis will be presented using both univariate and multivariate techniques, offering a detailed understanding of the data. 
 
 #### 1- Univariate Analysis:
-- Which universities are ranked in the top 10 globally?
+- Q1: Which universities are ranked in the top 10 globally?
 
 ![The top universitites in World Ranking University](https://github.com/Faris35/Usecase-3-Project-2/blob/main/top_unviersity.png)
 
-- What positions do universities in Saudi Arabia hold within the global rankings?
+- Q2: What positions do universities in Saudi Arabia hold within the global rankings?
 
-![Top KSA Universities Rankings](https://github.com/Faris35/Usecase-3-Project-2/blob/main/ksa_bar.png)
+```python
 
-- Countries With The Highest Number of Universities At The Top 500
+for ind in df_ksa.index:
+    print(f'University Names:{df_ksa['University Names'][ind]} -- World Rank:{df_ksa['World Rank'][ind]}')
+    print("")
+
+```
+
+```markdown
+
+University Names:King Abdulaziz University -- World Rank:245
+
+University Names:King Abdullah University of Science and Technology -- World Rank:279
+
+University Names:King Saud University -- World Rank:352
+
+University Names:King Fahd University of Petroleum and Minerals -- World Rank:657
+
+University Names:King Saud bin Abdulaziz University for Health Sciences -- World Rank:1311
+
+University Names:King Khalid University -- World Rank:1447
+
+University Names:Taif University -- World Rank:1509
+
+University Names:Imam Abdulrahman Bin Faisal University -- World Rank:1547
+
+University Names:Taibah University -- World Rank:1586
+
+University Names:Prince Sattam Bin Abdulaziz University -- World Rank:1711
+
+University Names:Umm Al-Qura University -- World Rank:1742
+
+University Names:Alfaisal University -- World Rank:1762
+
+University Names:Jazan University -- World Rank:1811
+
+University Names:Qassim University -- World Rank:1907
+
+University Names:University of Tabuk -- World Rank:1974
+
+University Names:King Faisal University -- World Rank:1979
+```
+
+- Q3: Countries With The Highest Number of Universities At The Top 500
 
 ![](https://github.com/Faris35/Usecase-3-Project-2/blob/main/top_500.png)
 
 #### 2- Multivariate Analysis:
-- Which universities are ranked in the top 10 for employment outcomes?
+- Q4: Which universities are ranked in the top 10 for employment outcomes?
 
 ![Top 10 Employment Outcomes](https://github.com/Faris35/Usecase-3-Project-2/blob/main/empl_rank.png)
 
-- Considering various factors such as employment rankings, research rankings, and others, which has the most significant impact on a university's overall ranking?
+- Q5: Considering various factors such as employment rankings, research rankings, and others, which has the most significant impact on a university's overall ranking?
 ![Top 10 Employment Outcomes](https://github.com/Faris35/Usecase-3-Project-2/blob/main/corr_with_another_factors.png)
+
+**Insights:**
+  
+Research Rank has the strongest impact on World Rank. The very high correlation (0.897) indicates that research quality is a dominant factor in determining a university’s overall ranking.
+Score and World Rank (-0.916): This strong negative correlation indicates that as the score increases, the world rank tends to decrease.
+Educational Rank and Faculty Rank also influence the World Rank, but their impact is moderate. These factors likely affect a university’s reputation, but not as much as research.
+Employability Rank has the weakest relationship with World Rank. While employability is important, it seems to play a smaller role in global university rankings compared to academic factors like research.
+National Rank has a moderate positive correlation with World Rank, meaning that a university’s performance at the national level influences its global position, but not as much as research or education
 
 - Relationship Between World Rank and Score
 
@@ -147,3 +196,10 @@ The findings from this analysis will be presented using both univariate and mult
 
 ![Global and National](https://github.com/Faris35/Usecase-3-Project-2/blob/main/globa_national.png)
 
+
+### Contributors:
+- Faris
+- Ahood
+- Sarah
+- Kawthar
+- Abdulrahman
