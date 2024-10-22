@@ -89,13 +89,26 @@ It contains data on national rankings, global rankings, research rankings, emplo
 
 ### 1. **Top 10 Globally Ranked Universities**
    - **Insight**: The top 10 universities globally are differ across ranking systems.
+     
+   - ![image](https://github.com/user-attachments/assets/d9cb98a1-aa20-4ca2-849e-744583930d00)
+
+   - ![image](https://github.com/user-attachments/assets/75a42184-f8f7-4de0-bc2c-8f2f30c75693)
+
+   - ![image](https://github.com/user-attachments/assets/c74d9a0f-f0d8-4524-8109-c95c68bd25e0)
+
 
 
 ### 2. **Research Ranking as the Most Significant Factor**
    - **Insight**: Research ranking has the strongest influence on a universities overall ranking.
 
+   - ![image](https://github.com/user-attachments/assets/b486440b-aeb0-42a1-9830-0c5aaa8f6de6)
+
+
 ### 3. **Top Universities are Concentrated in the US and UK**
    - **Insight**: US and UK are the highest number of globally top-ranked universities.
+
+   - ![image](https://github.com/user-attachments/assets/c6d0c738-8f0e-4164-bc98-27f17bc64e52)
+
   
 
 ### 4. **Correlation Between National and Global Rankings**
@@ -104,8 +117,18 @@ It contains data on national rankings, global rankings, research rankings, emplo
 
 ### 5. **Research-Intensive Countries Lead the Rankings**
    - **Insight**: Countries like the US, UK,  lead global university rankings due to strong research output.
-  
+
+   - ![image](https://github.com/user-attachments/assets/491ab714-8461-4f8d-be1f-733ec5a8d0a8)
+
 
 ### 6. **Negative Correlation Between Employment and Research Rankings**
    - **Insight**: There is minimal correlation between employment and research rankings.
+
+   - ![image](https://github.com/user-attachments/assets/483c22d9-c0f4-41e5-a969-b78d77517689)
+
+### 7. **Saudi Arabia is the most country among Arab Gulf countries recorded in Ranking system**
+
+![image](https://github.com/user-attachments/assets/f909711e-2247-4cfa-979f-ee639fdfa64f)
+
+
 
