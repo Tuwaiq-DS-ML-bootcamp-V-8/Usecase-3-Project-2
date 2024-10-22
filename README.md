@@ -17,7 +17,6 @@ This project aims to analyze and provide insights into the global and national u
    
 2. **Which universities are ranked in the top 10 for employment outcomes?**
    - Focusing on universities with the best employment prospects for graduates.
-![employ](https://github.com/user-attachments/assets/4fba093b-2860-4297-9e4e-32dcaa6e8d9a)
 
 3. **What positions do universities in Saudi Arabia hold within the global rankings?**
    - Analyzing the performance of Saudi universities compared to global standards.
@@ -65,8 +64,8 @@ The following EDA steps were applied to understand the dataset better and prepar
 
 ### 2. Top 10 Universities for Employment Outcomes
 - Insight: Universities with a strong emphasis on industry collaboration and professional networking have higher employment outcomes.
+![employ](https://github.com/user-attachments/assets/4c84544a-0d20-49ae-ae7f-8e22b559bffd)
 
-![Top 10 Universities for Employment](path_to_chart2)
 
 ### 3. Saudi Arabian Universities in Global Rankings
 - Insight: Universities in Saudi Arabia, particularly King Abdulaziz University and King Fahd University, show strong positions in specific fields but lag in global rankings overall.
