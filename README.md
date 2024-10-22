@@ -113,6 +113,8 @@ It contains data on national rankings, global rankings, research rankings, emplo
 
 ### 4. **Correlation Between National and Global Rankings**
    - **Insight**: National ranking moderately impacts the overall ranking but is less influential than research rankings.
+     
+   - ![image](https://github.com/user-attachments/assets/483c22d9-c0f4-41e5-a969-b78d77517689)
 
 
 ### 5. **Research-Intensive Countries Lead the Rankings**
@@ -121,12 +123,7 @@ It contains data on national rankings, global rankings, research rankings, emplo
    - ![image](https://github.com/user-attachments/assets/491ab714-8461-4f8d-be1f-733ec5a8d0a8)
 
 
-### 6. **Negative Correlation Between Employment and Research Rankings**
-   - **Insight**: There is minimal correlation between employment and research rankings.
-
-   - ![image](https://github.com/user-attachments/assets/483c22d9-c0f4-41e5-a969-b78d77517689)
-
-### 7. **Saudi Arabia is the most country among Arab Gulf countries recorded in Ranking system**
+### 6. **Saudi Arabia is the most country among Arab Gulf countries recorded in Ranking system**
 
 ![image](https://github.com/user-attachments/assets/f909711e-2247-4cfa-979f-ee639fdfa64f)
 
