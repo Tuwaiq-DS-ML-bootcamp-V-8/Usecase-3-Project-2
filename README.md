@@ -119,7 +119,31 @@ The analysis is structured around five primary questions: identifying the top 10
 The findings from this analysis will be presented using both univariate and multivariate techniques, offering a detailed understanding of the data. 
 
 #### 1- Univariate Analysis:
+- Which universities are ranked in the top 10 globally?
 
+![The top universitites in World Ranking University](https://github.com/Faris35/Usecase-3-Project-2/blob/main/top_unviersity.png)
 
+- What positions do universities in Saudi Arabia hold within the global rankings?
+
+![Top KSA Universities Rankings](https://github.com/Faris35/Usecase-3-Project-2/blob/main/ksa_bar.png)
+
+- Countries With The Highest Number of Universities At The Top 500
+
+![](https://github.com/Faris35/Usecase-3-Project-2/blob/main/top_500.png)
 
 #### 2- Multivariate Analysis:
+- Which universities are ranked in the top 10 for employment outcomes?
+
+![Top 10 Employment Outcomes](https://github.com/Faris35/Usecase-3-Project-2/blob/main/empl_rank.png)
+
+- Considering various factors such as employment rankings, research rankings, and others, which has the most significant impact on a university's overall ranking?
+![Top 10 Employment Outcomes](https://github.com/Faris35/Usecase-3-Project-2/blob/main/corr_with_another_factors.png)
+
+- Relationship Between World Rank and Score
+
+ ![Relationship Between World Rank and Score](https://github.com/Faris35/Usecase-3-Project-2/blob/main/scatter.png)
+
+- Is there a correlation between national and global university rankings?
+
+![Global and National](https://github.com/Faris35/Usecase-3-Project-2/blob/main/globa_national.png)
+
