@@ -192,7 +192,7 @@ National Rank has a moderate positive correlation with World Rank, meaning that 
 
  ![Relationship Between World Rank and Score](https://github.com/Faris35/Usecase-3-Project-2/blob/main/scatter.png)
 
-- Is there a correlation between national and global university rankings?
+- Q6 Is there a correlation between national and global university rankings?
 
 ![Global and National](https://github.com/Faris35/Usecase-3-Project-2/blob/main/globa_national.png)
 
