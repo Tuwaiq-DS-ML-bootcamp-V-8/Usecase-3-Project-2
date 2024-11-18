@@ -1,65 +1,80 @@
+# Universities Ranking Analysis
 
-# Usecase-3-Project-2 
-
-##  Team Members
+## Team Members
 - [Arwa Alkhathlan](https://github.com/arwaalkhathlan)  
 - [Taif]()
 - [Manal Hanif](https://github.com/ManalHanif)
 - [Mohammed Abdullah](https://github.com/Mohammed-Abdullah2)
 
----
-
 ## Introduction
-### Problem Statement
-This project aims to address **the universties ranking** by analyzing a dataset to uncover actionable insights. The goal is to leverage data analysis techniques to identify patterns, trends, or improvements relevant to their ranks.
+This project analyzes global university rankings using multiple datasets including Times Higher Education and Shanghai Rankings. We examine various ranking metrics including educational quality, employability, faculty resources, and research output.
 
-### Objectives
-1. Understand key features and relationships in the dataset.
-2. Apply exploratory data analysis (EDA) techniques.
-3. Generate meaningful insights to guide decision-making.
+## Datasets
+- **Times Higher Education Dataset**: Contains 2000 universities with metrics like:
+  - World Rank
+  - Educational Rank
+  - Employability Rank
+  - Faculty Rank
+  - Research Rank
+  - Overall Score
 
----
+- **Shanghai Ranking Dataset**: Contains 1000 universities with:
+  - Global Ranking
+  - National/Regional Rank
+  - Total Score
 
-##  Dataset Overview
-- **Source**: Kaggle,  
-- **Description**: This dataset contains information on the ranking of universties.
+## Key Findings
+1. **Top Universities**: Harvard consistently ranks #1 across different ranking systems
+2. **Employability Leaders**: 
+   - Harvard University (USA)
+   - INSEAD (France) 
+   - Stanford University (USA)
 
----
+3. **Saudi Arabian Universities**: Multiple institutions in global rankings, with positions ranging from 245 to 1979
 
-##  Exploratory Data Analysis (EDA) Steps
-Below are the key EDA steps applied with brief descriptions:
+4. **Correlation Analysis**:
+   - Strong correlation found between world rank and research output
+   - Moderate correlation between employability and overall score
 
-1. **Data Cleaning**: Handling missing values, duplicates, and outliers.
-2. **Data Transformation**: Normalizing or scaling features where necessary.
-3. **Univariate Analysis**: Distribution plots for individual variables.
-4. **Bivariate and Multivariate Analysis**: Identifying correlations and relationships.
-5. **Feature Engineering**: Creating new variables from existing ones.
-6. **Handling Categorical Variables**: Encoding methods applied.
-7. **Outlier Detection**: Techniques used to identify and treat outliers.
-8. **Time-Series or Trend Analysis**: (If applicable) Detecting trends over time.
-9. **Visualization**: Charts, heatmaps, and pair plots for better data interpretation.
-10. **Statistical Summary**: Key metrics like mean, median, and variance.
+## Methodology
+1. Data Cleaning:
+   - Handled missing values
+   - Standardized ranking formats
+   - Removed duplicates
 
----
+2. Analysis Techniques:
+   - Univariate analysis for rank distributions
+   - Correlation analysis between different ranking metrics
+   - Geographic distribution analysis
+
+## Visualizations
+- Bar charts for top university comparisons
+- Correlation heatmaps
+- Scatter plots for rank relationships
+- Geographic distribution plots
 
 ##  Final Insights and Visualizations
 Below are ten key insights derived from the data along with the charts used to illustrate them:
 
-1. **Insight 1**: [the top 10 saudi uni in the global ranking]  
-   ![Chart 1](Top-10-saudi.png)
+1. **Top Saudi Universities in Global Ranking**  
+   ![Top 10 Saudi Universities](Top-10-saudi.png?raw=true)
 
-2. **Insight 2**: [the corraltion between the diffreant ranks]  
-   ![Chart 2](corr-between-ranks.png)
+2. **Correlation Between Different Ranking Metrics**  
+   ![Correlation Between Ranks](corr-between-ranks.png?raw=true)
 
-3. **Insight 3**: [the top 25 in the global ranking locations]  
-   ![Chart 3](Top25.png)
+3. **Geographic Distribution of Top 25 Universities**  
+   ![Top 25 Universities by Location](Top25.png?raw=true)
 
-4. **Insight 4**: [the top 10 employability and their scores]  
-   ![Chart 4](Top-10-employment.png)
+4. **Top 10 Universities by Employability**  
+   ![Top 10 Universities by Employability](Top-10-employment.png?raw=true)
 
+   
+## Tools Used
+- Python
+- Pandas
+- Plotly
+- Seaborn
+- Matplotlib
 
----
-
-##  Conclusion
-This project provides meaningful insights into the unviersties ranking around the world, revealing key patterns such as the top 25 being mainly in USA.
-
+## Conclusions
+The analysis reveals strong patterns in global university rankings, with certain institutions consistently performing well across different ranking systems. Geographic distribution shows concentration of top universities in specific regions.
